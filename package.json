@@ -1,0 +1,43 @@
+{
+  "name": "tensorflow-demo-in-browser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start-dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MadLittleMods/tensorflow-demo-in-browser.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MadLittleMods/tensorflow-demo-in-browser/issues"
+  },
+  "homepage": "https://github.com/MadLittleMods/tensorflow-demo-in-browser#readme",
+  "dependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/plugin-transform-runtime": "^7.10.5",
+    "@tensorflow-models/coco-ssd": "^2.0.3",
+    "@tensorflow/tfjs": "^1.5.2",
+    "bluebird": "^3.7.2",
+    "express": "^4.17.1",
+    "fs-extra": "^9.0.1",
+    "morgan": "^1.10.0",
+    "winston": "^3.3.3",
+    "yargs": "^15.4.1"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "eslint": "^7.5.0",
+    "eslint-plugin-node": "^11.1.0",
+    "nodemon": "^2.0.4",
+    "webpack": "^4.43.0",
+    "webpack-dev-middleware": "^3.7.2"
+  }
+}
